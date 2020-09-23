@@ -1,0 +1,21 @@
+** $Id: ec4.new 1.2 1997/09/18 17:33:54 LEM release $
+**
+** SOIL DATA FILE for use with WOFOST Version 5.0, June 1990
+**
+** EC-4 fine
+
+SOLNAM='EC4-fine'
+
+** physical soil characteristics 
+
+** soil water retention
+SMW      =   0.300  !  soil moisture content at wilting point [cm3/cm3]
+SMFCF    =   0.460  !  soil moisture content at field capacity [cm3/cm3]
+SM0      =   0.570  !  soil moisture content at saturation [cm3/cm3]
+CRAIRC   =   0.050  ! critical soil air content for aeration [cm3/cm3]
+
+** hydraulic conductivity
+RDMSOL   = 120.     ! soil maximum rootable depth
+K0       =  10.789  ! hydraulic conductivity of saturated soil [cm day-1]
+SOPE     =   0.55   ! maximum percolation rate root zone[cm day-1]
+KSUB     =   0.37   ! maximum percolation rate subsoil [cm day-1]
