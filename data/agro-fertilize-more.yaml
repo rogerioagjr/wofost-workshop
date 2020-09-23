@@ -15,5 +15,5 @@ AgroManagement:
         comment: All fertilizer amounts in kg/ha
         events_table:
         - 2006-04-01: {N_amount: 100, P_amount: 100, K_amount: 100, N_recovery: 0.7, P_recovery: 0.7, K_recovery: 0.7}
-        - 2006-04-15: {N_amount: 200, P_amount: 0, K_amount: 200, N_recovery: 0.7, P_recovery: 0.7, K_recovery: 0.7}
     StateEvents: null
+
